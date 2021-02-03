@@ -123,3 +123,9 @@ serviceMonitor:
   enabled: false
   interval: "30s"
   namespace:
+
+deploymentInitContainers: {}
+
+emptyDirVolumes: {}
+
+customClusterRoles: {}
