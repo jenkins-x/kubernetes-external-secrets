@@ -80,8 +80,8 @@ serviceAccount:
 replicaCount: 1
 
 image:
-  repository: ghcr.io/external-secrets/kubernetes-external-secrets
-  tag: 6.2.0
+  repository: gcr.io/jenkinsxio/kubernetes-external-secrets
+  tag: 6.2.1
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
