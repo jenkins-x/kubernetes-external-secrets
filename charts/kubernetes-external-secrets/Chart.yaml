@@ -10,5 +10,5 @@ home: https://github.com/external-secrets/kubernetes-external-secrets
 sources:
   - https://github.com/external-secrets/kubernetes-external-secrets
 maintainers:
-  - name: external-secrets
+name: kubernetes-external-secrets
     url: https://github.com/external-secrets
