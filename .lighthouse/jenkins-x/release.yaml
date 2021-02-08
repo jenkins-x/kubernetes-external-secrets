@@ -26,12 +26,14 @@ spec:
           resources: {}
         - name: jx-variables
           resources: {}
-        - name: promote-changelog
+        - image: gcr.io/jenkinsxio/jx-cli:3.0.773
+          name: release-chart
           resources: {}
-        - name: promote-helm-release
-          resources: {}
-        - name: promote-jx-promote
-          resources: {}
+          script: |
+            #!/usr/bin/env bash
+            source .jx/variables.sh
+            cd /workspace/source/charts/kubernetes-external-secrets
+            make release
   podTemplate: {}
   serviceAccountName: tekton-bot
   timeout: 240h0m0s

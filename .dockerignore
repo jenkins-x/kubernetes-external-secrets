@@ -6,7 +6,6 @@ charts/**/README.md
 charts/**/templates/
 charts/**/values.yaml
 coverage
-Dockerfile
 node_modules
 release.sh
 .git
